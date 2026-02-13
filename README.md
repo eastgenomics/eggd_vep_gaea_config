@@ -57,3 +57,4 @@ done
 for file in  $(jq -r ' .custom_annotations[]|.resource_files[]|.file_id' $config_file);
 do dx describe $file --json | jq -r '.name';
 done
+```

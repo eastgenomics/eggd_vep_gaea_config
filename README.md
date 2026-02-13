@@ -30,7 +30,7 @@ This json file provides information about annotations,plugins, required fields a
         * CosmicNonCodingVariants_Normal_v100_GRCh38.vcf.gz
     * gaea_panel_v1_annotation_for_vep_extended.bed.gz
     * aSHM_and_aSHM-Morin_v1.0.0.bed.gz
-    * L-CH_and_M-CH_LymPanel_v1.0.0.bed
+    * L-CH_and_M-CH_LymPanel_v1.0.0.bed.gz
     * haemonc_1706_samples_withoutchr.vcf.gz
     * gaea_variants_rescue_list_v1.0.bed.gz
     * haemonc_annotation_VCF_20250224_102322.vcf.gz

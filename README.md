@@ -42,11 +42,11 @@ This json file provides information about annotations,plugins, required fields a
         * whole_genome_SNVs.tsv.gz
         * gnomad.genomes.r3.0.indel.tsv.gz
 
-Notes
+Notes:
 How to check the names of all the files included in the config:
 
 ```bash
-config_file=you_file_name.json
+config_file=your_file_name.json
 
 # Get the Vep Resources filenames
 for file in  $(jq -r ' .vep_resources | .[]' $config_file);

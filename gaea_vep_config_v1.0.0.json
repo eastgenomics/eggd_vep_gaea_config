@@ -1,0 +1,218 @@
+{
+"config_information":{
+    "genome_build": "GRCh38",
+    "assay":"Gaea",
+    "config_version": "1.0.0"
+},
+    "vep_resources":{
+    "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
+    "vep_cache":"file-GQ7Yqpj4qpBvpby694GgX92x",
+    "plugin_config":"file-GQ7Yzz04XB7q1vZyY9pQGyjp",
+    "reference_fasta":"file-G61y95Q433Gk05zyFKF9kFv2",
+    "reference_fai":"file-G61yBV8433GjbVj022PyV3K5",
+    "reference_gzi":"file-G61yBf0433Gp4BBVGj0jxqvP",
+    "ref_bcftools":"file-Gb772VQ4XGyzQ0Zk615XbZ0X"
+},
+"custom_annotations": [
+    {
+    "name": "ClinVar",
+    "type": "vcf",
+    "annotation_type": "exact",
+    "force_coordinates": "0",
+    "vcf_fields": "CLNSIG,CLNREVSTAT,CLNDN,CLNSIGCONF",
+    "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
+    "resource_files": [
+        {
+        "file_id":"file-J5g0FvQ4Xvkb2KF260G5Y30Y",
+        "index_id":"file-J5g0G8j4gfVbzGF99QvQ7fJ3"
+        }
+    ]
+    },
+    {
+    "name": "EG",
+    "type": "vcf",
+    "annotation_type": "exact",
+    "force_coordinates": "0",
+    "vcf_fields": "LC,LCD,LCS,TC",
+    "required_fields":"EG_LC,EG_LCD,EG_LCS,EG_TC",
+    "resource_files": [
+        {
+        "file_id":"file-Gyy5qk84K8X3FzZ15jkb7ppQ",
+        "index_id":"file-Gyy5qx84K8X3Vqj38jv5958P"
+        }
+    ]
+    },
+    {
+    "name": "gnomADe",
+    "type": "vcf",
+    "annotation_type": "exact",
+    "force_coordinates": "0",
+    "vcf_fields": "AC,AN,AF,",
+    "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF",
+    "resource_files": [
+        {
+        "file_id": "file-GvJqP704JBpk2YBB1PzJQkb2",
+        "index_id":"file-GvJqPxQ4JBpz9y18zPg7f5F0"
+        }
+    ]
+    },
+    {
+    "name": "gnomADg",
+    "type": "vcf",
+    "annotation_type": "exact",
+    "force_coordinates": "0",
+    "vcf_fields": "AC,AN,AF",
+    "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF",
+    "resource_files": [
+        {
+        "file_id": "file-Gv81v784JBpxkK585b4FY9b2",
+        "index_id":"file-GvZBvy84JBpYG2yypqQPq3zP"
+        }
+    ]
+    },
+    {
+    "name": "COSMICcMuts",
+    "type": "vcf",
+    "annotation_type": "exact",
+    "force_coordinates": "0",
+    "vcf_fields": "",
+    "required_fields":"COSMICcMuts",
+    "resource_files": [
+        {
+        "file_id":"file-GqpjZZj4Pj2X4G2V9v22K403",
+        "index_id":"file-GqpjjY04Pj2kY3JXz7X0vxK1"
+        }
+    ]
+    },
+    {
+    "name": "COSMICncMuts",
+    "type": "vcf",
+    "annotation_type": "exact",
+    "force_coordinates": "0",
+    "vcf_fields": "",
+    "required_fields":"COSMICncMuts",
+    "resource_files": [
+        {
+        "file_id":"file-GpfJbv84K7JYzF1568K44gXP",
+        "index_id":"file-GpfJby04K7JqY47pfzyJ65ZJ"
+        }
+    ]
+    },
+    {
+    "name": "PANEL",
+    "type": "bed",
+    "annotation_type": "overlap",
+    "force_coordinates": "0",
+    "required_fields": "PANEL",
+    "resource_files": [
+        {
+        "file_id":"file-J66zBbQ4kyZ5V9J4pFg39Jk0",
+        "index_id":"file-J66zBxj4kyZFG093qG4qxyQZ"
+        }
+    ]
+    },
+    {
+    "name": "aSHM",
+    "type": "bed",
+    "annotation_type": "overlap",
+    "force_coordinates": "0",
+    "required_fields": "aSHM",
+    "resource_files": [
+    {
+    "file_id":"file-J668P3Q4kyZ7Yf9VPB34Qz0P",
+    "index_id":"file-J668P6Q4kyZ1780pvgyxz77X"
+    }
+    ]
+    },
+    {
+    "name": "CHIP",
+    "type": "bed",
+    "annotation_type": "overlap",
+    "force_coordinates": "0",
+    "required_fields": "CHIP",
+    "resource_files": [
+        {
+        "file_id":"file-J65QYp84kyZPGzvGV72ZZPY7",
+        "index_id":"file-J65QYyQ4kyZ1zjg4gbX7J6Yx"
+        }
+    ]
+    },
+    {
+    "name": "Prev_Count",
+    "type": "vcf",
+    "annotation_type": "exact",
+    "force_coordinates": "0",
+    "vcf_fields": "AC,NS",
+    "required_fields": "Prev_Count_AC,Prev_Count_NS",
+    "resource_files": [
+        {
+        "file_id":"file-Gj6YQg84qv8v2J1XKJy4fQYg",
+        "index_id":"file-Gj6YQg84qv8Z3F4J8fX7YK6V"
+        }
+    ]
+    },
+    {
+    "name": "RESCUE_LIST",
+    "type": "BED",
+    "annotation_type": "overlap",
+    "force_coordinates": "0",
+    "required_fields": "RESCUE_LIST",
+    "resource_files": [
+        {
+        "file_id":"file-J5kb43Q4kyZ9f3QpFvVB0G91",
+        "index_id":"file-J5kb4J04kyZ730b4X6kGgx44"
+        }
+    ]
+    }
+],
+"plugins": [
+    {
+    "name": "SpliceAI",
+    "pm_file": "file-GQ7ZJK04vfJVPB7FKybkx0yk",
+    "required_fields":"SpliceAI_pred_DS_AG,SpliceAI_pred_DS_AL,SpliceAI_pred_DS_DG,SpliceAI_pred_DS_DL,SpliceAI_pred_DP_AG,SpliceAI_pred_DP_AL,SpliceAI_pred_DP_DG,SpliceAI_pred_DP_DL",
+    "resource_files": [
+        {
+        "file_id": "file-G9FFZ18433GpzFVy9XxfyBG4",
+        "index_id": "file-G9FFZb8433GvX5jJ23bQB2z7",
+        "prefix": "snv="
+        },
+        {
+        "file_id": "file-G9FFGbQ433GbXjxQBYy79X75",
+        "index_id": "file-G9FFGX0433GqkpYv23jB853V",
+        "prefix": "indel="
+        }
+    ]
+    },
+    {
+    "name": "CADD",
+    "pm_file": "file-GQ7ZY6841Jgv0Q5PkBbypJy0",
+    "required_fields":"CADD_PHRED",
+    "resource_files": [
+        {
+        "file_id": "file-G61xfZ0433Gj2vJ7P8k9ky2Z",
+        "index_id": "file-G61y4Y8433GvyjJ52Fj5XjY5"
+        },
+        {
+        "file_id": "file-G61xbP0433GqX36p8QQxP3PV",
+        "index_id": "file-G61xf3j433Gz49jf6XjKG4F0"
+        }
+    ]
+    }
+],
+"additional_fields":[
+    "Allele",
+    "SYMBOL",
+    "Consequence",
+    "IMPACT",
+    "EXON",
+    "INTRON",
+    "Feature",
+    "HGVSc",
+    "HGVSp",
+    "HGVSg",
+    "HGVS_OFFSET",
+    "STRAND",
+    "Existing_variation",
+    "VARIANT_CLASS"
+]
+}

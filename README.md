@@ -32,6 +32,7 @@ This json file provides information about annotations,plugins, required fields a
     * aSHM_and_aSHM-Morin_v1.0.0.bed.gz
     * L-CH_and_M-CH_LymPanel_v1.0.0.bed.gz
     * haemonc_1706_samples_withoutchr.vcf.gz
+    * 260327_lymphoma_excluded_intronic_regions.bed.gz
     * gaea_variants_rescue_list_v1.0.bed.gz
     * haemonc_annotation_VCF_20250224_102322.vcf.gz
 * Plugin annotations:

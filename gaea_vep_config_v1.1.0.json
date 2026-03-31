@@ -152,15 +152,15 @@
     ]
     },
     {
-    "name": "DEEP_INTRONS",
+    "name": "EXCLUDED_REGIONS",
     "type": "bed",
     "annotation_type": "overlap",
     "force_coordinates": "0",
-    "required_fields": "DEEP_INTRONS",
+    "required_fields": "EXCLUDED_REGIONS",
     "resource_files": [
         {
-        "file_id":"file-J739jpQ40BGQ3bXjQBbGYXzv",
-        "index_id":"file-J739jq040BGYbkf00PPvz6VJ"
+        "file_id":"file-J75z36Q40BGV0QFV9j8Z5yXZ",
+        "index_id":"file-J75z36j40BGVf04KVQ046gXP"
         }
     ]
     },

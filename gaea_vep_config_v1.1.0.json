@@ -152,6 +152,19 @@
     ]
     },
     {
+    "name": "EXCLUDED_REGIONS",
+    "type": "bed",
+    "annotation_type": "overlap",
+    "force_coordinates": "0",
+    "required_fields": "EXCLUDED_REGIONS",
+    "resource_files": [
+        {
+        "file_id":"file-J75z36Q40BGV0QFV9j8Z5yXZ",
+        "index_id":"file-J75z36j40BGVf04KVQ046gXP"
+        }
+    ]
+    },
+    {
     "name": "RESCUE_LIST",
     "type": "bed",
     "annotation_type": "overlap",

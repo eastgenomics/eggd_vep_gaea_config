@@ -202,12 +202,12 @@
     "required_fields":"CADD_PHRED",
     "resource_files": [
         {
-        "file_id": "file-G61xfZ0433Gj2vJ7P8k9ky2Z",
-        "index_id": "file-G61y4Y8433GvyjJ52Fj5XjY5"
+        "file_id": "file-GvXK0Zj463q3JyB4k1Z6kFqJ",
+        "index_id": "file-GvXJ4304ZJz333bkQX06vKZx"
         },
         {
-        "file_id": "file-G61xbP0433GqX36p8QQxP3PV",
-        "index_id": "file-G61xf3j433Gz49jf6XjKG4F0"
+        "file_id": "file-GvXJ5J041Jq97byQfyb9JF3z",
+        "index_id": "file-GvXJ5Vj4k5331YfvbVz98J22"
         }
     ]
     }

@@ -20,7 +20,7 @@ This json file provides information about annotations,plugins, required fields a
     * GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz
 * Custom Annotation sources:
     * ClinVar
-        * clinvar_20260114_GRCh38.vcf.gz
+        * clinvar_20260606_GRCh38.vcf.gz
     * gnomADe
         *   gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
     * gnomADg
@@ -40,8 +40,8 @@ This json file provides information about annotations,plugins, required fields a
         * spliceai_scores.masked.snv.hg38.vcf.gz
         * spliceai_scores.masked.indel.hg38.vcf.gz
     * CADD
-        * whole_genome_SNVs.tsv.gz
-        * gnomad.genomes.r3.0.indel.tsv.gz
+        * cadd_1.7_b38_whole_genome_SNVs.tsv.gz
+        * cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz
 
 Notes:
 How to check the names of all the files included in the config:

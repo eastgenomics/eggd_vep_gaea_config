@@ -2,7 +2,7 @@
 "config_information":{
     "genome_build": "GRCh38",
     "assay":"Gaea",
-    "config_version": "1.0.0"
+    "config_version": "1.1.1"
 },
     "vep_resources":{
     "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -23,8 +23,8 @@
     "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
     "resource_files": [
         {
-        "file_id":"file-J5g0Zqj4kBK89073jXQ58p40",
-        "index_id":"file-J5g0yx04GkfPpx3J5ZQq8FBK"
+        "file_id":"file-J8b90Q04B9fqXx7bJpQKf776",
+        "index_id":"file-J8b90P844pPBBvqzZjxYb008"
         }
     ]
     },
@@ -202,12 +202,12 @@
     "required_fields":"CADD_PHRED",
     "resource_files": [
         {
-        "file_id": "file-G61xfZ0433Gj2vJ7P8k9ky2Z",
-        "index_id": "file-G61y4Y8433GvyjJ52Fj5XjY5"
+        "file_id": "file-GvXK0Zj463q3JyB4k1Z6kFqJ",
+        "index_id": "file-GvXJ4304ZJz333bkQX06vKZx"
         },
         {
-        "file_id": "file-G61xbP0433GqX36p8QQxP3PV",
-        "index_id": "file-G61xf3j433Gz49jf6XjKG4F0"
+        "file_id": "file-GvXJ5J041Jq97byQfyb9JF3z",
+        "index_id": "file-GvXJ5Vj4k5331YfvbVz98J22"
         }
     ]
     }

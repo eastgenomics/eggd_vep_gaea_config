@@ -20,7 +20,7 @@ This json file provides information about annotations,plugins, required fields a
     * GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz
 * Custom Annotation sources:
     * ClinVar
-        * clinvar_20260706_GRCh38.vcf.gz
+        * clinvar_20260804_GRCh38.vcf.gz
     * gnomADe
         *   gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
     * gnomADg

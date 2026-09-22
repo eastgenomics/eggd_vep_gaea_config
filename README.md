@@ -20,14 +20,11 @@ This json file provides information about annotations,plugins, required fields a
     * GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz
 * Custom Annotation sources:
     * ClinVar
-        * clinvar_20260804_GRCh38.vcf.gz
+        * clinvar_20260905_GRCh38.vcf.gz
     * gnomADe
         *   gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
     * gnomADg
         *   gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
-    * COSMIC
-        * CosmicCodingMuts_Normal_v100_GRCh38.vcf.gz
-        * CosmicNonCodingVariants_Normal_v100_GRCh38.vcf.gz
     * gaea_panel_v1_annotation_for_vep_extended.bed.gz
     * aSHM_and_aSHM-Morin_v1.0.0.bed.gz
     * L-CH_and_M-CH_LymPanel_v1.0.0.bed.gz

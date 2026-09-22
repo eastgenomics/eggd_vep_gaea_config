@@ -2,7 +2,7 @@
 "config_information":{
     "genome_build": "GRCh38",
     "assay":"Gaea",
-    "config_version": "1.1.3"
+    "config_version": "1.1.4"
 },
     "vep_resources":{
     "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -23,8 +23,8 @@
     "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
     "resource_files": [
         {
-        "file_id":"file-J9vq4X04jXvZxYK5jQXqZk4b",
-        "index_id":"file-J9vq58Q4VkV86PG1g61f8x1F"
+        "file_id":"file-JBV99Jj4PzYqqV4kP77PkvVF",
+        "index_id":"file-JBV9B504XxVX218qJp5b8Bbk"
         }
     ]
     },
@@ -67,34 +67,6 @@
         {
         "file_id": "file-Gv81v784JBpxkK585b4FY9b2",
         "index_id":"file-GvZBvy84JBpYG2yypqQPq3zP"
-        }
-    ]
-    },
-    {
-    "name": "COSMICcMuts",
-    "type": "vcf",
-    "annotation_type": "exact",
-    "force_coordinates": "0",
-    "vcf_fields": "",
-    "required_fields":"COSMICcMuts",
-    "resource_files": [
-        {
-        "file_id":"file-GqpjZZj4Pj2X4G2V9v22K403",
-        "index_id":"file-GqpjjY04Pj2kY3JXz7X0vxK1"
-        }
-    ]
-    },
-    {
-    "name": "COSMICncMuts",
-    "type": "vcf",
-    "annotation_type": "exact",
-    "force_coordinates": "0",
-    "vcf_fields": "",
-    "required_fields":"COSMICncMuts",
-    "resource_files": [
-        {
-        "file_id":"file-GpfJbv84K7JYzF1568K44gXP",
-        "index_id":"file-GpfJby04K7JqY47pfzyJ65ZJ"
         }
     ]
     },

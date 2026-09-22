@@ -25,9 +25,6 @@ This json file provides information about annotations,plugins, required fields a
         *   gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
     * gnomADg
         *   gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
-    * COSMIC
-        * CosmicCodingMuts_Normal_v100_GRCh38.vcf.gz
-        * CosmicNonCodingVariants_Normal_v100_GRCh38.vcf.gz
     * gaea_panel_v1_annotation_for_vep_extended.bed.gz
     * aSHM_and_aSHM-Morin_v1.0.0.bed.gz
     * L-CH_and_M-CH_LymPanel_v1.0.0.bed.gz

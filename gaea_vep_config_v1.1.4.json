@@ -71,34 +71,6 @@
     ]
     },
     {
-    "name": "COSMICcMuts",
-    "type": "vcf",
-    "annotation_type": "exact",
-    "force_coordinates": "0",
-    "vcf_fields": "",
-    "required_fields":"COSMICcMuts",
-    "resource_files": [
-        {
-        "file_id":"file-GqpjZZj4Pj2X4G2V9v22K403",
-        "index_id":"file-GqpjjY04Pj2kY3JXz7X0vxK1"
-        }
-    ]
-    },
-    {
-    "name": "COSMICncMuts",
-    "type": "vcf",
-    "annotation_type": "exact",
-    "force_coordinates": "0",
-    "vcf_fields": "",
-    "required_fields":"COSMICncMuts",
-    "resource_files": [
-        {
-        "file_id":"file-GpfJbv84K7JYzF1568K44gXP",
-        "index_id":"file-GpfJby04K7JqY47pfzyJ65ZJ"
-        }
-    ]
-    },
-    {
     "name": "PANEL",
     "type": "bed",
     "annotation_type": "overlap",
